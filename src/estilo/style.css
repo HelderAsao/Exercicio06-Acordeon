@@ -1,0 +1,75 @@
+html{
+    font-size: 62.5%
+}
+
+.principal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 65.5rem;
+    height: 34.7rem;
+    border: none;
+    border-radius: 2.1rem;
+    box-shadow: 10px 2px 20px black;
+    position: relative;
+
+
+}
+
+img.img-acordeon{
+    position: absolute;
+    left: -90px;
+   
+}
+
+.section-coluna{
+    display: flex;
+    flex-direction: column;
+    margin: 6rem 3.7rem 6rem 22.8rem;
+    gap:15px;
+}
+
+hr{
+    margin-top: 10px;
+}
+img.img-seta-aberta{
+    height: 8.86px;
+    position: absolute;
+    right: 3.7rem ;
+    display: none;
+}
+
+img.img-seta{
+    height: 8.86px;
+    position: relative;
+}
+h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+h4{
+    font-size: 1.7rem;
+    font-weight: 500;
+    
+}
+p.resposta{
+    width: 34.7rem;
+    line-height: 1.5rem;
+    margin: 10px 0 15px 0;
+    display: none;
+    transition: 0.2s ease-in-out;
+}
+.pergunta{
+    width: 39rem;
+    
+}
+.aparecer-pergunta{
+    display: flex;
+    justify-content: space-between;
+}
